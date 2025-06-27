@@ -1932,6 +1932,10 @@ header .nav__next {
     .video-block video {
         max-width: 100%;
     }
+
+    .services__item.bottom {
+        margin-bottom: 0% !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1965,6 +1969,10 @@ header .nav__next {
     .slill-number h2 {
         font-size: 24px;
         margin-bottom: 12px;
+    }
+
+    .services__item.bottom {
+        margin-bottom: 0% !important;
     }
 }
 
@@ -2021,12 +2029,16 @@ header .nav__next {
     }
 
     .slill-number span {
-         font-size: 30px;
+        font-size: 30px;
     }
 
     .slill-number p {
         font-size: 14px;
         line-height: 1.4;
+    }
+
+    .services__item.bottom {
+        margin-bottom: 0% !important;
     }
 }
 
