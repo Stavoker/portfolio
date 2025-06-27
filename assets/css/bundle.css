@@ -1738,7 +1738,7 @@ header .nav__next {
 .skills__header {
     font-size: 3.58em;
     font-weight: 600;
-    padding-bottom: 42px;
+    padding-bottom: 60px;
 }
 
 .skills-block {
@@ -2016,7 +2016,7 @@ header .nav__next {
 
     .skills__header {
         font-size: 2em;
-        padding-bottom: 20px;
+        padding-bottom: 41px;
     }
 
     .slill-number {
@@ -2033,7 +2033,7 @@ header .nav__next {
     }
 
     .slill-number p {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.4;
     }
 
