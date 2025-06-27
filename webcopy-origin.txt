@@ -1,0 +1,104 @@
+Uri: https://ross-sikora-cv.netlify.app/
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\index.htm
+Content Type: text/html
+
+Uri: https://ross-sikora-cv.netlify.app/4pillars
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\4pillars.html
+Content Type: text/html
+
+Uri: https://ross-sikora-cv.netlify.app/assets/css/bundle.css
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\css\bundle.css
+Content Type: text/css
+
+Uri: https://ross-sikora-cv.netlify.app/assets/fonts/PPMori-Regular.woff
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\fonts\PPMori-Regular.woff
+Content Type: application/font-woff
+
+Uri: https://ross-sikora-cv.netlify.app/assets/fonts/PPMori-Regular.woff2
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\fonts\PPMori-Regular.woff2
+Content Type: font/woff2
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/4pillars/alexbecher_m_1.webp
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\4pillars\alexbecher_m_1.webp
+Content Type: image/webp
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/4pillars/alexbecher_m_2.webp
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\4pillars\alexbecher_m_2.webp
+Content Type: image/webp
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/4pillars/FOUR.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\4pillars\FOUR.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/4pillars/mokap04.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\4pillars\mokap04.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/avatar.jpg
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\avatar.jpg
+Content Type: image/jpeg
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/discuzz/mob-01.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\discuzz\mob-01.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/discuzz/ultra-mockup-1.webp
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\discuzz\ultra-mockup-1.webp
+Content Type: image/webp
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/discuzz/ultra-ooh_m_1.webp
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\discuzz\ultra-ooh_m_1.webp
+Content Type: image/webp
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/serenity/1.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\serenity\1.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/serenity/2.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\serenity\2.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/serenity/3.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\serenity\3.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/wimp/01.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\wimp\01.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/wimp/03.png
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\wimp\03.png
+Content Type: image/png
+
+Uri: https://ross-sikora-cv.netlify.app/assets/images/wimp/img-hero.jpg
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\images\wimp\img-hero.jpg
+Content Type: image/jpeg
+
+Uri: https://ross-sikora-cv.netlify.app/assets/js/app.js
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\js\app.js
+Content Type: application/javascript
+
+Uri: https://ross-sikora-cv.netlify.app/assets/js/bundle.js
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\assets\js\bundle.js
+Content Type: application/javascript
+
+Uri: https://ross-sikora-cv.netlify.app/discuzz
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\discuzz.html
+Content Type: text/html
+
+Uri: https://ross-sikora-cv.netlify.app/gtag/js?id=G-1PLXFN52CV
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\gtag\js
+Content Type: text/plain
+
+Uri: https://ross-sikora-cv.netlify.app/Rostyslav_Sikora_CV.pdf
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\Rostyslav_Sikora_CV.pdf
+Content Type: application/pdf
+
+Uri: https://ross-sikora-cv.netlify.app/serenity
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\serenity.html
+Content Type: text/html
+
+Uri: https://ross-sikora-cv.netlify.app/wimp
+File Name: C:\Downloaded Web Sites\ross-sikora-cv.netlify.app\wimp.html
+Content Type: text/html
+

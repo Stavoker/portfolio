@@ -1,0 +1,559 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ross Sikora | Fullstack Developer</title>
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+        content="UI Designer,UI/UX, Front End Development, Webflow , ReactJs, GatsbyJs, Web Designer,  Freelance Designer">
+    <meta property="og:type" content="website">
+    <link rel="manifest" href="assets/images/avatar.jpg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preload" href="assets/fonts/PPMori-Regular.woff" as="font" type="font/woff" crossorigin="">
+    <link rel="stylesheet" href="assets/css/bundle.css">
+    <script async="" src="gtag/js?id=G-1PLXFN52CV"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-1PLXFN52CV');
+
+
+
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body data-barba="wrapper">
+    <div id="awwwards" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%; right: 0">
+        <a href="https://www.linkedin.com/in/rostyslav-sikora-252208313" target="_blank">
+            <svg width="48" height="156" viewbox="0 0 49 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48.7434" height="157.358" fill="black"></rect>
+                <rect width="48.7434" height="157.358" fill="white"></rect>
+                <path
+                    d="M13.0957 143.442L13.0957 138.374L31.4305 138.374L31.4305 128.992L36.0757 128.992L36.0757 143.442L13.0957 143.442Z"
+                    fill="#0A66C2"></path>
+                <path
+                    d="M20.4958 126.75L20.4958 121.881L36.0684 121.881L36.0684 126.75L20.4958 126.75ZM12.7539 124.315C12.754 123.757 12.9186 123.211 13.2269 122.746C13.5352 122.282 13.9733 121.92 14.4859 121.706C14.9985 121.492 15.5625 121.437 16.1066 121.546C16.6507 121.655 17.1505 121.924 17.5427 122.319C17.935 122.714 18.2021 123.217 18.3103 123.765C18.4185 124.313 18.3629 124.881 18.1506 125.397C17.9383 125.913 17.5787 126.354 17.1174 126.664C16.6561 126.974 16.1138 127.14 15.559 127.14C15.1906 127.14 14.8258 127.067 14.4854 126.925C14.1451 126.783 13.8358 126.575 13.5753 126.313C13.3148 126.05 13.1082 125.739 12.9673 125.396C12.8263 125.053 12.7538 124.686 12.7539 124.315Z"
+                    fill="#0A66C2"></path>
+                <path
+                    d="M13.0898 101.515L13.0898 96.6463L26.8233 96.6463L20.4852 91.1283L20.4852 85.1589L27.6948 91.5492L36.0714 85.2933L36.0714 91.4128L28.3738 96.5814L28.3738 96.6453L36.0704 96.6453L36.0704 101.514L13.0898 101.515Z"
+                    fill="#0A66C2"></path>
+                <path
+                    d="M20.4945 119.182L20.4945 114.507L22.6226 114.507L22.6226 114.44C21.828 113.973 21.1742 113.298 20.7312 112.486C20.2881 111.674 20.0724 110.756 20.1071 109.83C20.1071 104.893 23.3334 103.984 27.5247 103.984L36.0645 103.984L36.0645 108.853L28.4933 108.853C26.686 108.853 24.3629 108.886 24.3629 111.388C24.3629 113.919 26.3309 114.31 28.3618 114.31L36.0625 114.31L36.0625 119.179L20.4945 119.182Z"
+                    fill="#0A66C2"></path>
+                <path
+                    d="M26.469 74.9058C26.0767 74.8965 25.6866 74.9675 25.3224 75.1144C24.9581 75.2614 24.6272 75.4812 24.3499 75.7607C24.0725 76.0402 23.8543 76.3735 23.7086 76.7404C23.5629 77.1072 23.4927 77.5001 23.5022 77.8951C23.4496 78.7458 23.7312 79.5832 24.2862 80.2268C24.8412 80.8704 25.6251 81.2687 26.469 81.3357L26.469 74.9058ZM33.3698 70.7815C34.3442 71.5906 35.1277 72.6077 35.6636 73.7593C36.1994 74.9108 36.4742 76.1679 36.4681 77.4396C36.4681 82.3084 33.2403 86.2065 28.2421 86.2065C23.2438 86.2065 20.0176 82.3089 20.0176 77.4396C20.0176 72.8888 23.2413 70.0349 28.2421 70.0349L29.7582 70.0349L29.7582 81.3357C30.6181 81.195 31.3985 80.7461 31.9556 80.0718C32.5127 79.3976 32.8091 78.5432 32.79 77.6663C32.7858 76.9733 32.6094 76.2924 32.277 75.6855C31.9447 75.0787 31.4668 74.5651 30.887 74.1917L33.3698 70.7815Z"
+                    fill="#0A66C2"></path>
+                <path
+                    d="M24.258 59.8864C24.258 62.3208 25.8724 63.7814 28.2247 63.7814C30.577 63.7814 32.1928 62.3213 32.1928 59.8864C32.1928 57.4514 30.581 55.9878 28.2247 55.9878C25.8683 55.9878 24.258 57.4489 24.258 59.8864ZM36.0633 51.5054L36.0633 55.9878L33.9981 55.9878L33.9981 56.0542C34.7493 56.6165 35.3614 57.3459 35.7867 58.1855C36.212 59.0251 36.4391 59.9522 36.4502 60.8946C36.4502 65.5727 33.097 68.6543 28.3551 68.6543C24.0001 68.6543 20.0012 65.9273 20.0012 61.4444C20.0012 59.4294 20.5487 57.5473 22.0664 56.4432L22.0664 56.3793L13.0898 56.3793L13.0898 51.5059L36.0633 51.5054Z"
+                    fill="#0A66C2"></path>
+                <path
+                    d="M36.0723 18.636L36.0723 23.5048L28.4996 23.5048C26.6939 23.5048 24.3693 23.5373 24.3693 26.0371C24.3693 28.573 26.3367 28.961 28.3682 28.961L36.0718 28.961L36.0718 33.8298L20.4993 33.8298L20.4993 29.1557L22.6275 29.1557L22.6275 29.0903C21.8331 28.6225 21.1797 27.9466 20.7367 27.1345C20.2937 26.3224 20.0778 25.4045 20.112 24.4786C20.112 19.5438 23.3357 18.634 27.5295 18.634L36.0723 18.636ZM18.3706 39.3234C18.3707 39.8823 18.2063 40.4286 17.898 40.8933C17.5898 41.358 17.1516 41.7202 16.6388 41.9341C16.1261 42.1481 15.5619 42.2041 15.0176 42.0952C14.4732 41.9863 13.9731 41.7173 13.5806 41.3222C13.1881 40.9271 12.9208 40.4237 12.8124 39.8757C12.704 39.3276 12.7595 38.7595 12.9718 38.2432C13.1841 37.7268 13.5437 37.2855 14.0051 36.975C14.4665 36.6644 15.009 36.4986 15.564 36.4985C15.9325 36.4984 16.2974 36.5715 16.6379 36.7134C16.9784 36.8553 17.2878 37.0634 17.5484 37.3257C17.809 37.588 18.0158 37.8995 18.1569 38.2422C18.2979 38.585 18.3706 38.9524 18.3706 39.3234ZM36.0723 36.889L36.0723 41.7629L20.4993 41.7629L20.4993 36.889L36.0723 36.889ZM8.26785 16.2087L8.26785 44.2095C8.26073 44.845 8.50449 45.4575 8.94557 45.9121C9.38665 46.3668 9.98896 46.6265 10.6201 46.6343L38.545 46.6343C39.1765 46.6268 39.7792 46.3672 40.2208 45.9126C40.6623 45.4579 40.9066 44.8454 40.8998 44.2095L40.8998 16.2087C40.9078 15.5716 40.6642 14.9573 40.2227 14.5009C39.7812 14.0444 39.1778 13.7831 38.545 13.7743L10.6181 13.7743C9.98569 13.7834 9.38269 14.0449 8.94162 14.5013C8.50055 14.9578 8.25749 15.5719 8.26583 16.2087"
+                    fill="#0A66C2"></path>
+            </svg>
+
+
+
+
+
+
+
+        </a>
+    </div>
+    <div id="viewport">
+        <div data-barba="container" data-barba-namespace="home">
+            <header id="header" class="header">
+                <div class="wrapper">
+                    <nav class="nav"><a class='nav__logo header__item' href='index.htm'>Ross Sikora</a>
+                        <div class="nav__links"><a href="#about"
+                                class="nav__link js--nav-link header__item text-link">About</a>
+
+                            <a href="#skills" class="nav__link js--nav-link header__item text-link">Skills</a>
+
+                            <a href="#dev" class="nav__link js--nav-link header__item text-link">Development</a>
+
+                            <a href="#work" class="nav__link js--nav-link header__item text-link">Works</a>
+
+
+                            <a href="#process" class="nav__link js--nav-link header__item text-link">Process</a>
+
+                            <a href="mailto:sros010295@gmail.com" class="nav__link header__item text-link">Drop me a
+                                line</a>
+
+                        </div>
+
+                        <label class="nav__theme header__item">
+                            <div class="nav__theme__icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12 12"
+                                    class="cc-moon">
+                                    <path fill="none" d="M0 0h12v12H0z"></path>
+                                    <path fill="currentColor"
+                                        d="M6.315 10.617q-.223 0-.448-.02a4.93 4.93 0 0 1-.876-9.66.394.394 0 0 1 .486.486 4.142 4.142 0 0 0 5.1 5.1.394.394 0 0 1 .486.486 4.943 4.943 0 0 1-4.748 3.608Zm-1.741-8.69a4.142 4.142 0 1 0 5.5 5.5 4.931 4.931 0 0 1-5.5-5.5Z">
+                                    </path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 11.997 11.999"
+                                    class="cc-sun">
+                                    <path fill="currentColor"
+                                        d="M5.599 11.601v-1a.4.4 0 0 1 .4-.4.4.4 0 0 1 .4.4v1a.4.4 0 0 1-.4.4.4.4 0 0 1-.4-.4Zm4.075-1.356-.708-.707a.4.4 0 0 1 0-.565.4.4 0 0 1 .567 0l.705.707a.4.4 0 0 1 0 .565.391.391 0 0 1-.282.117.4.4 0 0 1-.28-.12Zm-7.919 0a.4.4 0 0 1 0-.565l.707-.707a.4.4 0 0 1 .565 0 .4.4 0 0 1 0 .565l-.707.707a.39.39 0 0 1-.283.117.393.393 0 0 1-.28-.12Zm.493-4.533a3.463 3.463 0 0 1 3.457-3.46 3.463 3.463 0 0 1 3.457 3.46 3.46 3.46 0 0 1-3.457 3.456A3.46 3.46 0 0 1 2.25 5.709Zm.813 0a2.648 2.648 0 0 0 2.645 2.642 2.646 2.646 0 0 0 2.645-2.642 2.647 2.647 0 0 0-2.645-2.645 2.649 2.649 0 0 0-2.644 2.642Zm7.537.689a.4.4 0 0 1-.4-.4.4.4 0 0 1 .4-.4h1a.4.4 0 0 1 .4.4.4.4 0 0 1-.4.4Zm-10.2 0a.4.4 0 0 1-.4-.4.4.4 0 0 1 .4-.4h1a.4.4 0 0 1 .4.4.4.4 0 0 1-.4.4Zm8.568-3.367a.4.4 0 0 1 0-.568l.708-.705a.4.4 0 0 1 .564 0 .4.4 0 0 1 0 .565l-.705.708a.407.407 0 0 1-.284.114.406.406 0 0 1-.281-.117Zm-6.5 0-.707-.708a.4.4 0 0 1 0-.565.4.4 0 0 1 .565 0l.707.705a.4.4 0 0 1 0 .568.406.406 0 0 1-.282.114.4.4 0 0 1-.285-.117Zm3.137-1.632v-1a.4.4 0 0 1 .4-.4.4.4 0 0 1 .4.4v1a.4.4 0 0 1-.4.4.4.4 0 0 1-.404-.401Z">
+                                    </path>
+                                </svg></div><input id="toggleTheme" type="checkbox" name="theme"
+                                class="nav__theme__toggle">
+                            <div id="toggleThemeText" class="nav__theme__text">Light</div>
+                        </label>
+                        
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <section class="h-hero">
+                    <div class="wrapper">
+                        <div class="h-hero__top">
+                            <div class="h-hero__title">
+                                <h1> <span class="text-hidden">Ross Sikora </span><span>Web Fullstack Dev</span></h1>
+                            </div>
+                            <div class="h-hero__sub">
+                                <p>Specialized in Web and Mob Dev, Building Fullstack applications and helping with
+                                    UI/UX
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-hero__bottom">
+                            <div class="h-hero__text">
+                                <p>My name is Ross. I design with logic and build with care — Fullstack development
+                                    with product focus and frontend finesse
+
+
+                                </p><a href="mailto:sros010295@gmail.com" class="button"> <span
+                                        class="button__text">Drop
+                                        me a line</span>
+                                    <div class="button__icon">
+                                        <div class="button__icon__bg"></div><svg fill="none"
+                                            xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                                            <path
+                                                d="m7.012 18.069 9.702-9.702v7.298l1.499.028-.014-8.81-1.132-1.132-8.81-.014.028 1.499h7.298L5.88 16.937l1.131 1.132Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="h-hero__social">
+                                <li> <span>My socials</span></li>
+                                <li><a href="https://t.me/rostyslav_sikora" target="_blank"
+                                        class="text-link"><span>Telegram</span></a></li>
+                                <li><a href="https://wa.me/937662026" target="_blank"
+                                        class="text-link"><span>WhatsApp</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/rostyslav-sikora-252208313" target="_blank"
+                                        class="text-link"><span>Linkedin</span></a></li>
+                                <li><a href="https://github.com/Stavoker" target="_blank"
+                                        class="text-link"><span>GitHub</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about" id="about">
+                    <div class="wrapper">
+                        <div class="flex-block">
+                            <div class="text-block">
+                                <h2>A product-oriented designer & Fullstack developer — helping people shape digital
+                                    products and create software systems</h2>
+                                <p>I’m a multi-disciplinary product builder with over 4 years of experience in UI/UX
+                                    design,
+                                    frontend, and full-stack development. I specialize in bridging design and
+                                    engineering to
+                                    help early-stage teams and growing companies launch meaningful, performant products
+                                    —
+                                    from Figma to functional code.</p>
+                                <p>Over the 4 years, I’ve contributed to and led projects across Europe, USA, Canada,
+                                    and
+                                    the UAE, working closely with international teams and users. Whether it's designing
+                                    a
+                                    decentralized crypto messenger, building a web3 social layer, or leading a React
+                                    Native
+                                    app in a highly regulated industry — I’m driven by clarity, precision, and impact.
+                                </p>
+                                <p>Currently building internal AI tooling at Fort Wise AI Solutions, shaping how people
+                                    interact with large-scale messaging bots across Telegram, WhatsApp, and Instagram.
+                                    Previously led the creation and successful exit of Discuzz Network, a 3-part video
+                                    and
+                                    web3 platform. I also co-designed 4thP Super App — a privacy-first blockchain
+                                    messenger
+                                    for sensitive communications.</p>
+                                <p>I thrive at the intersection of design systems, testing, and scalable frontend
+                                    architecture (React, Next.js, Svelte, Tailwind). I believe good digital products
+                                    come
+                                    from a deep understanding of user needs, tight feedback loops, and bold, opinionated
+                                    simplicity.</p>
+                            </div>
+                            <div class="img-block">
+                                <img src="./assets/images/ross-img.PNG" alt="">
+                                <p>Outside of my work, I enjoy travel, wine, delicious food, and chasing views — whether
+                                    it’s mountain fog or ocean sunsets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills" id="skills">
+                    <div class="wrapper">
+                        <div class="flex-block">
+
+
+
+                            <div class="block-left">
+                                <div class="skills__header">
+                                    <h2>Hard skills</h2>
+
+                                </div>
+                                <div class="skills-block">
+                                    <div class="slill-number">
+                                        <div style="display: flex; gap: 10px;"> <span>01</span>
+                                            <h2>Front-End</h2>
+                                        </div>
+
+                                        <p>React, React Query, React Native, Svelte, Next.js, Vite, Three.js, jQuery,
+                                            Tailwind
+                                            CSS, HTML5, SCSS</p>
+                                    </div>
+
+                                    <div class="slill-number">
+                                        <div style="display: flex; gap: 10px;"> <span>02</span>
+                                            <h2>Back-End</h2>
+                                        </div>
+                                        <p>Node.js (Express), Nest.js, TypeScript, Solidity, MongoDB, MySQL, Supabase,
+                                            AWS,
+                                            Clerk</p>
+                                    </div>
+
+                                    <div class="slill-number">
+                                        <div style="display: flex; gap: 10px;"> <span>03</span>
+                                            <h2>Tools</h2>
+                                        </div>
+                                        <p>Git, Docker, Ngrok, Expo, Jest, Figma, Prototyping, Wireframing, User Flow,
+                                            Unit Testing</p>
+                                    </div>
+
+                                    <div class="slill-number">
+                                        <div style="display: flex; gap: 10px;"> <span>04</span>
+                                            <h2>Practices</h2>
+                                        </div>
+                                        <p>
+                                            FSD (Feature-Sliced Design), CI/CD, Clean Code (SOLID, KISS, DRY),
+                                            Agile/Scrum, Atomic Design, A/B Testing, Component-Driven Development,
+                                            Accessibility (a11y), Responsive & Mobile-First Design
+                                        </p>
+
+                                        </p>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="video-block">
+                                <video autoplay muted repeat loop playsinline src="./assets/images/video.mp4"></video>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="services">
+                    <div class="wrapper">
+                        <div class="services__header" id="dev">
+                            <h2>Development</h2>
+                        </div>
+                        <div class="services__list">
+
+                            <div class="services__item bottom"><span>01</span>
+                                <h2>Front-End</h2>
+                                <p>Developing responsive and interactive user interfaces, optimization across all
+                                    devices</p>
+                            </div>
+                            <div class="services__item bottom"><span>02</span>
+                                <h2>Back-End</h2>
+                                <p>Creating efficient back-end systems, integration with Front-End components, reliable
+                                    data handling</p>
+                            </div>
+                            <div class="services__item"><span>03</span>
+                                <h2>Web3</h2>
+                                <p>Building dApps, smart contract development, blockchain integration, coin verification
+                                </p>
+                            </div>
+                            <div class="services__item"><span>04</span>
+                                <h2>DB Engineering</h2>
+                                <p>Designing, structuring and optimizing databases, integration with Back-end, API</p>
+                            </div>
+                            <div class="services__item"><span>05</span>
+                                <h2>Mob App Dev</h2>
+                                <p>Cross-platform app development with React Native </p>
+
+                            </div>
+                            <div class="services__item bottom"><span>06</span>
+                                <h2>UI/UX</h2>
+                                <p>User flow development, problem research, interface designing, prototyping, usability
+                                    testing
+                                </p>
+                            </div>
+
+                            <style>
+                                .services__item.bottom {
+                                    margin-bottom: 20% !important;
+                                }
+                            </style>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section id="work" class="projects">
+                    <div class="wrapper">
+                        <div class="projects__header">
+                            <div>
+                                <h3>Selected Work</h3><span>(3)</span>
+                            </div>
+                            <p>A piece from my selection of favorites</p>
+                        </div>
+                        <div class="projects__list">
+
+
+                            <a class='project' href='4pillars.html'>
+                                <div class="project__text">
+                                    <h2 class="project__title">4Pillars</h2>
+                                    <p data-splitting="" class="project__info">Front-End Development, Web3, UI/UX,
+                                        Commerce</p>
+                                </div>
+                                <div class="project__year">/23</div>
+                            </a>
+
+                            <a class='project' href='wimp.html'>
+                                <div class="project__text">
+                                    <h2 class="project__title">Wimp Decaf</h2>
+                                    <p data-splitting="" class="project__info">Fullstack Development, Web Design, UI/UX,
+                                        Commerce</p>
+                                </div>
+                                <div class="project__year">/23</div>
+                            </a>
+
+                            <a class='project' href='discuzz.html'>
+                                <div class="project__text">
+                                    <h2 class="project__title">Discuzz</h2>
+                                    <p data-splitting="" class="project__info">Fullstack Development, Web3, UI/UX,
+                                        Software
+                                    </p>
+                                </div>
+                                <div class="project__year">/24</div>
+                            </a>
+
+                            <a class='project' href='serenity.html'>
+                                <div class="project__text">
+                                    <h2 class="project__title">Serenity Transfer</h2>
+                                    <p data-splitting="" class="project__info">Mobile Development, Fullstack
+                                        Development, UI/UX, Software</p>
+                                </div>
+                                <div class="project__year">/25</div>
+                            </a>
+
+                            <a class='project' href='alara.html'>
+                                <div class="project__text">
+                                    <h2 class="project__title">Alara Ai</h2>
+                                    <p data-splitting="" class="project__info">Fullstack Development, UI/UX, Software,
+                                        Artificial Intelligence</p>
+                                </div>
+                                <div class="project__year">/25</div>
+                            </a>
+
+                            <a class='project' href='laki.html'>
+                                <div class="project__text">
+                                    <h2 class="project__title">Laki World</h2>
+                                    <p data-splitting="" class="project__info">Fullstack Development, UI/UX, SEO,
+                                        iGaming</p>
+                                </div>
+                                <div class="project__year">/25</div>
+                            </a>
+                        </div>
+                        <div class="projects__footer">
+                            <h3>More case studies</h3>
+                            <p> Reach me out at <a href="mailto:sros010295@gmail.com"
+                                    class="text-link">sros010295@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="process" class="process dropdown-section">
+                    <div class="wrapper">
+                        <div class="process__grid">
+                            <div class="process__grid--col">
+                                <div class="process__title">
+                                    <h2>Development Process</h2>
+                                </div>
+                                <p>I approach every product with a strong focus on both functionality and user
+                                    experience. From concept to deployment, I manage the full development lifecycle —
+                                    including UI/UX design, Front-End and Back-End development, testing, and continuous
+                                    iteration.
+                                </p>
+                            </div>
+                            <div class="process__grid--col">
+                                <div class="process__list">
+                                    <div class="dropdown">
+                                        <div class="dropdown__header">
+                                            <div class="dropdown__header__content"><span>01.</span>
+                                                <h3>UI/UX Design & Wireframing</h3>
+                                            </div><svg fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                viewbox="0 0 16 16" class="dropdown__icon">
+                                                <path fill="currentColor" d="M0 8h16v1H0z"></path>
+                                                <path fill="currentColor" d="M9 0v16H8V0z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="dropdown__body">
+                                            <div class="dropdown__body__content">
+                                                <p>Every project starts with research. I study user behavior and
+                                                    business needs to craft intuitive flows and experiences. Through
+                                                    wireframes and interactive prototypes, I turn complex ideas into
+                                                    clear, testable UI structures that align with your goals — validated
+                                                    by real user feedback and product testing.</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="dropdown__divider"></div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <div class="dropdown__header">
+                                            <div class="dropdown__header__content"><span>02.</span>
+                                                <h3>Front-End Development</h3>
+                                            </div><svg fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                viewbox="0 0 16 16" class="dropdown__icon">
+                                                <path fill="currentColor" d="M0 8h16v1H0z"></path>
+                                                <path fill="currentColor" d="M9 0v16H8V0z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="dropdown__body">
+                                            <div class="dropdown__body__content">
+                                                <p>I build fast, scalable, and responsive interfaces using React,
+                                                    Next.js, Vite, Svelte and Tailwind. I focus on performance,
+                                                    accessibility
+                                                    (a11y), and component-driven architecture — applying best practices
+                                                    like FSD, Atomic Design, and CI/CD. Whether it’s a crypto app or
+                                                    admin dashboard, my goal is always clear code and clean UX.</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="dropdown__divider"></div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <div class="dropdown__header">
+                                            <div class="dropdown__header__content"><span>03.</span>
+                                                <h3>Back-End Development</h3>
+                                            </div><svg fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                viewbox="0 0 16 16" class="dropdown__icon">
+                                                <path fill="currentColor" d="M0 8h16v1H0z"></path>
+                                                <path fill="currentColor" d="M9 0v16H8V0z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="dropdown__body">
+                                            <div class="dropdown__body__content">
+                                                <p>
+                                                <p>From building APIs to managing infrastructure, I handle all
+                                                    server-side logic using TypeScript, Node.js (Express) and
+                                                    databases like MongoDB, MySQL or Supabase. I follow SOLID
+                                                    principles, clean
+                                                    code patterns, and write with scalability in mind — ensuring data
+                                                    flows securely and efficiently across your entire system.</p>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown__divider"></div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <div class="dropdown__header">
+                                            <div class="dropdown__header__content"><span>04.</span>
+                                                <h3>Analytics & Ongoing Support</h3>
+                                            </div><svg fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                viewbox="0 0 16 16" class="dropdown__icon">
+                                                <path fill="currentColor" d="M0 8h16v1H0z"></path>
+                                                <path fill="currentColor" d="M9 0v16H8V0z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="dropdown__body">
+                                            <div class="dropdown__body__content">
+                                                <p>
+                                                <p>I implement custom analytics and A/B testing pipelines to give you
+                                                    actionable insights into user behavior and performance. After
+                                                    launch, I offer 7 days of free support — including bug fixing, minor
+                                                    updates, and performance monitoring — to ensure your product runs
+                                                    smoothly in the real world.</p>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown__divider"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cta">
+                    <div class="wrapper">
+                        <div class="cta__content">
+                            <div class="cta__image"><img src="assets/images/avatar.jpg"
+                                    alt="Ross Sikora | Fullstack Developer">
+                            </div>
+                            <h3> I’m always up for exciting collaborations — reach out</h3>
+                        </div><a href="mailto:sros010295@gmail.com" class="button"> <span class="button__text">Drop me
+                                a line</span>
+                            <div class="button__icon">
+                                <div class="button__icon__bg"></div><svg fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    viewbox="0 0 24 24">
+                                    <path
+                                        d="m7.012 18.069 9.702-9.702v7.298l1.499.028-.014-8.81-1.132-1.132-8.81-.014.028 1.499h7.298L5.88 16.937l1.131 1.132Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="wrapper">
+                    <div class="footer__grid">
+                        <div class="footer__copy"><span>© </span><span id="footerYear">2025</span><span>Rostyslav
+                                Sikora</span></div>
+                        <ul class="footer__links">
+                            <li><a href="https://t.me/rostyslav_sikora" target="_blank" class="text-link">Telegram</a>
+                            </li>
+
+                            <li><a href="https://wa.me/937662026" target="_blank" class="text-link">WhatsApp</a></li>
+
+                            <li><a href="https://www.linkedin.com/in/rostyslav-sikora-252208313" target="_blank"
+                                    class="text-link">LinkedIn</a></li>
+
+
+                            <li><a href="https://github.com/Stavoker" target="_blank" class="text-link">GitHub</a></li>
+
+                            <li><a href="mailto:sros010295@gmail.com" target="_blank" class="text-link">Email</a></li>
+                        </ul>
+                        <div class="footer__legal">
+                            <a href="Rostyslav Sikora CV (5).pdf" class="text-link" style="text-decoration: underline;"
+                                target="_blank">See My CV</a>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/js/bundle.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
