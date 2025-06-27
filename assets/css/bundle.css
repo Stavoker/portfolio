@@ -1754,8 +1754,7 @@ header .nav__next {
 
 .slill-number h2 {
     font-size: 32px;
-
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .slill-number p {
@@ -1972,8 +1971,8 @@ header .nav__next {
 /* Mobile styles (320px - 480px) */
 @media screen and (max-width: 480px) {
     .about {
-        padding-bottom: 2.5em;
-        padding-top: 2em;
+        padding-bottom: 6.25em;
+        padding-top: 6.25em;
     }
 
     .flex-btn {
@@ -2003,22 +2002,26 @@ header .nav__next {
     }
 
     .skills {
-        padding-bottom: 2.5em;
-        padding-top: 2em;
+        padding-bottom: 6.25em;
+        padding-top: 6.25em;
     }
 
     .skills__header {
-        font-size: 1.8em;
+        font-size: 2em;
         padding-bottom: 20px;
     }
 
     .slill-number {
-        margin-bottom: 30px;
+        margin-bottom: 34px;
     }
 
     .slill-number h2 {
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 10px;
+    }
+
+    .slill-number span {
+         font-size: 30px;
     }
 
     .slill-number p {
