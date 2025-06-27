@@ -737,7 +737,7 @@ header .nav__links {
     grid-column-gap: 2.5em
 }
 
-@media screen and (max-width:439px) {
+@media screen and (max-width: 600px) {
     header .nav__links {
         flex-direction: column
     }
